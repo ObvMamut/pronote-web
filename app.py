@@ -13,7 +13,7 @@ def login():
     name=request.form['username']
     pwd=request.form['password']
 
-    client = pronotepy.Client('#YOUR SCHOOLS PRONOTE ADRESS',
+    client = pronotepy.Client('https://e048000a.index-education.net/pronote/eleve.html', #YOUR SCHOOLS PRONOTE ADRESS
                                   username=name,
                                   password=pwd)
 
